@@ -40,7 +40,10 @@ const InvestModal = ({
     setAmountToInvest(event.target.value);
   };
 
-  const handleClick = () => invest(amountToInvest);
+  const handleClick = () => {
+    invest(amountToInvest);
+    handleClose();
+  };
 
   return (
     <Modal
