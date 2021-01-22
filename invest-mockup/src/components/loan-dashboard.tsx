@@ -3,16 +3,8 @@ import { connect, ConnectedProps } from "react-redux";
 
 import { StoreState } from "../redux/store";
 import React from "react";
-import { useModalStyles } from "../styles";
 import { invest } from "../redux/actions";
-import Modal from "@material-ui/core/Modal";
-import Backdrop from "@material-ui/core/Backdrop";
-import Fade from "@material-ui/core/Fade";
-import {
-  numberWithCommas,
-  secondsToMonthsDays,
-  totalAvailable,
-} from "../constants";
+import { numberWithCommas, totalAvailable } from "../constants";
 import InvestmentCard from "./investment-card";
 import InvestModal from "./invest-modal";
 

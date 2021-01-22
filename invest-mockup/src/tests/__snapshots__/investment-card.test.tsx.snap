@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`investment card renders correctly with base props 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8"
+    >
+      <div
+        className="MuiCardContent-root"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextPrimary MuiTypography-gutterBottom"
+        >
+          title
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+        >
+          Amount: 
+          23123
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body2"
+        >
+          Available: 
+          50
+          <br />
+          Annualised return: 
+          50
+          <br />
+          Tranch: 
+          Z
+          <br />
+          LTV: 
+          2
+        </p>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+    >
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root WithStyles(ForwardRef(Button))-root-2 MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Invest
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`investment card renders invested status 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8"
+    >
+      <div
+        className="MuiCardContent-root"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextPrimary MuiTypography-gutterBottom"
+        >
+          title
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+        >
+          Amount: 
+          23123
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body2"
+        >
+          Available: 
+          50
+          <br />
+          Annualised return: 
+          50
+          <br />
+          Tranch: 
+          Z
+          <br />
+          LTV: 
+          2
+        </p>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+      >
+        Invested
+      </p>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root WithStyles(ForwardRef(Button))-root-2 MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Invest
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

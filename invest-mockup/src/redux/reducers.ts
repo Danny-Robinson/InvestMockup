@@ -13,9 +13,11 @@ export const loans = (
   switch (action.type) {
     case INVEST:
       const loan = state[action.id];
-      console.log(loan);
-      console.log(action);
-      subtractStrings(loan.available, action.amount);
+
+      if (!loan) {
+        return state;
+      }
+
       return {
         ...state,
         [action.id]: {
