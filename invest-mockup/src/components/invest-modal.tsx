@@ -35,7 +35,6 @@ const InvestModal = ({
     setValid(!isAmountLarger(amountToInvest, selectedLoan?.available));
   }, [amountToInvest, selectedLoan]);
 
-  console.log(valid);
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setAmountToInvest(event.target.value);
   };
